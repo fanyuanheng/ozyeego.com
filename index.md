@@ -1,7 +1,7 @@
 ---
 layout: page
-title: OZ Yeego
-tagline: Supporting tagline
+title: 澳洲易购
+tagline: OZ YeeGo
 ---
 
 <ul class="posts">
