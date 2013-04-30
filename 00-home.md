@@ -9,20 +9,17 @@ permalink: index.html
 <div id="this-carousel-id" class="carousel slide">
   <div class="carousel-inner">
     <div class="item active">
-      <a href="http://hubblesite.org/gallery/album/entire/pr2006046a/xlarge_web/npp/128/">  <img src="/assets/images/antennae.jpg" alt="Antennae Galaxies" />
-      </a>
+      <a href="http://www.coles.com.au"><img src="/assets/images/slider-coles.png" alt="Coles" /></a>
       <div class="carousel-caption">
-        <p>The Antennae Galaxies</p>
-        <p><a href="http://hubblesite.org/gallery/album/entire/pr2006046a/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+        <p>澳洲最大连锁超市之一 Coles</p>
+        <p><a href="http://www.coles.com.au">去Coles看看 &raquo;</a></p>
       </div>
     </div>
     <div class="item">
-      <a href="http://hubblesite.org/gallery/album/entire/pr2007016e/xlarge_web/npp/128/">
-        <img src="/assets/images/carina.jpg" alt="Carina Caterpillar" />
-      </a>
+      <a href="http://www.woolworths.com.au"><img src="/assets/images/slider-woolworths.png" alt="Woolworths" /></a>
       <div class="carousel-caption">
-        <p>Carina Nebula: The Caterpillar</p>
-        <p><a href="http://hubblesite.org/gallery/album/entire/pr2007016e/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+        <p>澳洲最大连锁超市之一 Woolworths</p>
+        <p><a href="http://www.woolworths.com.au">去Woolworths看看 &raquo;</a></p>
       </div>
     </div>
   </div>
