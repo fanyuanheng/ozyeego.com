@@ -108,8 +108,9 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                <li class="active"><a href="#">首页</a></li>
-                <li><a href="#">博客</a></li>
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
               </ul>
             </div>
           </div>
