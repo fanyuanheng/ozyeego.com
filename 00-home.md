@@ -6,11 +6,28 @@ group: navigation
 permalink: index.html
 ---
 
-<!-- Jumbotron -->
-<div class="jumbotron">
-<h1>Marketing stuff!</h1>
-<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-<a class="btn btn-large btn-success" href="#">Get started today</a>
+<div id="this-carousel-id" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="http://hubblesite.org/gallery/album/entire/pr2006046a/xlarge_web/npp/128/">  <img src="/assets/images/antennae.jpg" alt="Antennae Galaxies" />
+      </a>
+      <div class="carousel-caption">
+        <p>The Antennae Galaxies</p>
+        <p><a href="http://hubblesite.org/gallery/album/entire/pr2006046a/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="http://hubblesite.org/gallery/album/entire/pr2007016e/xlarge_web/npp/128/">
+        <img src="/assets/images/carina.jpg" alt="Carina Caterpillar" />
+      </a>
+      <div class="carousel-caption">
+        <p>Carina Nebula: The Caterpillar</p>
+        <p><a href="http://hubblesite.org/gallery/album/entire/pr2007016e/xlarge_web/npp/128/">Hubblesite.org &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div>
 
 <hr>
@@ -35,3 +52,11 @@ permalink: index.html
 </div>
 
 <hr>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 4000
+    });
+  });
+</script>
