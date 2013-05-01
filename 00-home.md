@@ -32,19 +32,20 @@ permalink: index.html
 <!-- Example row of columns -->
 <div class="row-fluid">
 <div class="span4">
-  <h2>Heading</h2>
-  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-  <p><a class="btn" href="#">View details &raquo;</a></p>
+  <h2>原装正品保障</h2>
+  <p>澳洲易购承诺，我们所代购的产品全部原装正品，假一赔三。澳洲易购的产品来自于澳洲药房、超市和母婴用品专卖店。所有的产品细节可以通过产品官方网站和专业经销商店网站进行查询比对。我们所销售的孕妇/产后保健品、婴幼儿保健品和成人保健品都经过澳洲药监局检验和批准生产销售，并且能在您所购买的产品包装上找到清晰的澳洲药监局注册编号。
+  </p>
+  <p><a class="btn" href="/supplier.html">了解更多 &raquo;</a></p>
 </div>
 <div class="span4">
-  <h2>Heading</h2>
-  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-  <p><a class="btn" href="#">View details &raquo;</a></p>
+  <h2>澳洲专业直邮</h2>
+  <p></p>
+  <p><a class="btn" href="/logistic.html">了解更多 &raquo;</a></p>
 </div>
 <div class="span4">
-  <h2>Heading</h2>
-  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-  <p><a class="btn" href="#">View details &raquo;</a></p>
+  <h2>最新最潮商品</h2>
+  <p></p>
+  <p><a class="btn" href="#">了解更多 &raquo;</a></p>
 </div>
 </div>
 
