@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" xmlns:wb="http://open.weibo.com/wb">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,6 +95,7 @@
 
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
 
     <!-- Le fav and touch icons -->
@@ -139,13 +140,17 @@
       <hr>
 
       <div class="footer">
-        <p>&copy; <a href="http://www.ozyeego.com" title="澳洲易购">澳洲易购</a> 2012, 
-          Supported by <a href="http://www.simpul.com.au" target="_blank" title="Simpul Co">{{ site.author.company }}</a>.
+        <p>&copy; <a href="http://www.ozyeego.com" title="澳洲易购">澳洲易购</a> 2012
         </p>
       </div>
 
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+    <script>
+      $(document).ready(function(){
+        $('#weibo-topic').html('<wb:topic border="n" width="560" height="450" tags="澳洲易购" language="zh_cn" version="base" appkey="3emiG3" footbar="y" filter="y" ></wb:topic>');
+      });
+    </script>
   </body>
 </html>

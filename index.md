@@ -53,4 +53,4 @@ weight: 1
 
 <hr>
 
-{% include home.js %}
+{% include index.js %}
