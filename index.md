@@ -28,7 +28,7 @@ weight: 1
 </div>
 
 <p>
-  <a class="btn btn-large btn-block btn-primary" type="button">澳洲易购-淘宝店</a>
+  <a class="btn btn-large btn-block" type="button">澳洲易购-淘宝店</a>
 </p>
 
 <!-- Example row of columns -->
