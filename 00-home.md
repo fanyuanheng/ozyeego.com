@@ -6,7 +6,7 @@ group: navigation
 permalink: index.html
 ---
 
-<div id="this-carousel-id" class="carousel slide">
+<div id="ozyeego-carousel" class="carousel slide">
   <div class="carousel-inner">
     <div class="item active">
       <a href="http://www.coles.com.au"><img src="/assets/images/slider-coles.png" alt="Coles" /></a>
@@ -23,8 +23,8 @@ permalink: index.html
       </div>
     </div>
   </div>
-  <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+  <a class="carousel-control left" href="#ozyeego-carousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#ozyeego-carousel" data-slide="next">&rsaquo;</a>
 </div>
 
 <hr>
@@ -49,11 +49,5 @@ permalink: index.html
 </div>
 
 <hr>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script>
-  $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: 4000
-    });
-  });
-</script>
+
+{% include home.js %}
