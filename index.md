@@ -12,16 +12,31 @@ weight: 1
       <a href="http://www.coles.com.au"><img src="/assets/images/slider-coles.png" alt="Coles" /></a>
       <div class="carousel-caption">
         <p>澳洲最大连锁超市之一 Coles</p>
-        <p><a href="http://www.coles.com.au">去Coles看看 &raquo;</a></p>
+        <p><a href="http://www.coles.com.au">去看看 &raquo;</a></p>
       </div>
     </div>
     <div class="item">
       <a href="http://www.woolworths.com.au"><img src="/assets/images/slider-woolworths.png" alt="Woolworths" /></a>
       <div class="carousel-caption">
         <p>澳洲最大连锁超市之一 Woolworths</p>
-        <p><a href="http://www.woolworths.com.au">去Woolworths看看 &raquo;</a></p>
+        <p><a href="http://www.woolworths.com.au">去看看&raquo;</a></p>
       </div>
     </div>
+    <div class="item">
+      <a href="http://www.chemistwarehouse.com.au"><img src="/assets/images/slider-chemistwarehouse.png" alt="Chemist Warehouse" /></a>
+      <div class="carousel-caption">
+        <p>澳洲最大折扣保健品店 Chemist Warehouse</p>
+        <p><a href="http://www.woolworths.com.au">去看看&raquo;</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="http://www.priceline.com.au"><img src="/assets/images/slider-priceline.png" alt="Priceline" /></a>
+      <div class="carousel-caption">
+        <p>澳洲知名连锁药店 Priceline</p>
+        <p><a href="http://www.priceline.com.au">去看看&raquo;</a></p>
+      </div>
+    </div>
+    
   </div>
   <a class="carousel-control left" href="#ozyeego-carousel" data-slide="prev">&lsaquo;</a>
   <a class="carousel-control right" href="#ozyeego-carousel" data-slide="next">&rsaquo;</a>
