@@ -116,9 +116,17 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                {% assign pages_list = site.pages %}
-                {% assign group = 'navigation' %}
-                {% include JB/pages_list %}
+                {% for weight in (1..10) %}
+                  {% for p in site.pages %}
+                    {% if p.weight == weight %}
+                      <li {% if p.url == page.url %}class="active"{% endif %}>
+                        <a href="{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
               </ul>
             </div>
           </div>

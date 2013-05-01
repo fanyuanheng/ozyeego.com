@@ -3,6 +3,6 @@ layout: page
 title: "联系我们"
 tagline: "联系我们"
 group: navigation
-permalink: contact-us.html
+weight: 4
 ---
 {% include JB/setup %}

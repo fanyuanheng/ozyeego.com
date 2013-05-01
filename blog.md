@@ -3,7 +3,7 @@ layout: page
 title: "博客"
 tagline: "博客"
 group: navigation
-permalink: blog.html
+weight: 2
 ---
 {% include JB/setup %}
 

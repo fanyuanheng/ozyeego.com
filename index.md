@@ -3,7 +3,7 @@ layout: page
 title: 首页
 tagline: 
 group: navigation
-permalink: index.html
+weight: 1
 ---
 
 <div id="ozyeego-carousel" class="carousel slide">
