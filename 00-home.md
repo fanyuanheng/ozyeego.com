@@ -27,7 +27,9 @@ permalink: index.html
   <a class="carousel-control right" href="#ozyeego-carousel" data-slide="next">&rsaquo;</a>
 </div>
 
-<hr>
+<p>
+  <a class="btn btn-large btn-block btn-primary" type="button">澳洲易购-淘宝店</a>
+</p>
 
 <!-- Example row of columns -->
 <div class="row-fluid">
