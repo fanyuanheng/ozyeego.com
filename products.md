@@ -11,15 +11,21 @@ weight: 7
   <div class="navbar-inner">
     <div class="container">
       <ul class="nav">
-        <li class="active"><a href="#">维他命</a></li>
-	    <li><a href="#">瘦身</a></li>
-	    <li><a href="#">婴儿护理</a></li>
-	    <li><a href="#">美容护肤</a></li>
-	    <li><a href="#">健康食品</a></li>
-	    <li><a href="#">其他</a></li>
+	      <li class="active" category="vitamins"><a href="#">维他命</a></li>
+		    <li><a href="#">瘦身</a></li>
+		    <li><a href="#">婴儿护理</a></li>
+		    <li><a href="#">美容护肤</a></li>
+		    <li><a href="#">健康食品</a></li>
+		    <li><a href="#">其他</a></li>
       </ul>
     </div>
   </div>
 </div>
 
+<div>
+	<ul id="product-list">
+	</ul>
+</div>
+
+{% include data/products-data.js %}
 {% include js/products.js %}
