@@ -65,4 +65,4 @@ weight: 1
 
 <hr>
 
-{% include index.js %}
+{% include js/index.js %}

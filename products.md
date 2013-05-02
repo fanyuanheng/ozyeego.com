@@ -18,4 +18,4 @@ weight: 7
   </ul>
 </div>
 
-{% include products.js %}
+{% include js/products.js %}
