@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "供应商"
-tagline: "供应商"
+title: "品牌"
+tagline: "品牌"
 group: navigation
 weight: 5
 ---
