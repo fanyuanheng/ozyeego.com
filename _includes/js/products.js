@@ -5,6 +5,10 @@
     	$(this).addClass('active');
     });
 
+    function imageFormatter(cellvalue, options, rowObject) {
+			return "<img src='" + cellvalue + "' />";
+  	}
+
 		$.getJSON('assets/products.json', function(response){
 			$("#products").jqGrid({
 	        datatype: "local",
@@ -12,7 +16,7 @@
         	autowidth:true,	
 	        colNames:['', '产品名称', '供应商', '类别', '建议零售价'],
 	        colModel:[
-	        	{name:'image',index:'image', sortable: false},
+	        	{name:'image',index:'image', sortable: false, formatter:imageFormatter},
 	        	{name:'name',index:'name', sorttype: "text"},
 	          {name:'supplier',index:'supplier', sorttype: "text"},
 	          {name:'category',index:'category', sorttype: "text"},
