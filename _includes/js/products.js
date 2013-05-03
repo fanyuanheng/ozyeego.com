@@ -9,23 +9,26 @@
 			$("#products").jqGrid({
 	        datatype: "local",
 	        data: response.products,
+          autowidth:true,	
 	        colNames:['name', 'image', 'supplier', 'category', 'rrp'],
 	        colModel:[
-	        	{name:'name',index:'name', width:150, sortable:true},
-	        	{name:'image',index:'image', width:100, sortable:true},
-	          {name:'supplier',index:'supplier', width:150, sortable:true},
-	          {name:'category',index:'category', width:150, sortable:true},
-	          {name:'rrp',index:'rrp', width:50, sortable:true}
+	        	{name:'name',index:'name', sorttype: "text"},
+	        	{name:'image',index:'image', sortable: false},
+	          {name:'supplier',index:'supplier', sorttype: "text"},
+	          {name:'category',index:'category', sorttype: "text"},
+	          {name:'rrp',index:'rrp', sorttype: "text"}
 	        ],
-	        rowNum:10,
+	        rowNum:20,
 	        rowList:[5,10,20],
 	        pager: '#pager',
-	        sortname: 'supplier',
-	        viewrecords: true,
-	        sortorder: "desc",
-	        caption:"Sorting and paging of local data",
-	        height: "100%"
-	    }).jqGrid('navGrid','#pager',{add:false,edit:false,del:false});
+	        gridview:true,
+          rownumbers:true,
+          viewrecords: true,
+          sortorder: 'asc',
+          caption:'产品列表',
+          height: '100%'
+	    });
+	    $("#products").jqGrid('navGrid','#pager',{add:false,edit:false,del:false});
 		});
 
   });
