@@ -9,17 +9,17 @@
 			$("#products").jqGrid({
 	        datatype: "local",
 	        data: response.products,
-          autowidth:true,	
-	        colNames:['name', 'image', 'supplier', 'category', 'rrp'],
+        	autowidth:true,	
+	        colNames:['', '产品名称', '供应商', '类别', '建议零售价'],
 	        colModel:[
-	        	{name:'name',index:'name', sorttype: "text"},
 	        	{name:'image',index:'image', sortable: false},
+	        	{name:'name',index:'name', sorttype: "text"},
 	          {name:'supplier',index:'supplier', sorttype: "text"},
 	          {name:'category',index:'category', sorttype: "text"},
 	          {name:'rrp',index:'rrp', sorttype: "text"}
 	        ],
 	        rowNum:20,
-	        rowList:[5,10,20],
+	        rowList:[20,50,100],
 	        pager: '#pager',
 	        gridview:true,
           rownumbers:true,

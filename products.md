@@ -22,8 +22,9 @@ weight: 7
   </div>
 </div>
 
-<table id="products"><tr><td/></tr></table>
-<div id="pager"/>
-
+<div>
+	<table id="products"><tr><td/></tr></table>
+	<div id="pager"/>
+</div>
 
 {% include js/products.js %}
