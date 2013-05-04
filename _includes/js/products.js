@@ -12,10 +12,14 @@
 		        	{name:'image',index:'image', sortable: false, formatter:function(cellvalue, options, rowObject){
 		        		return "<img src='" + cellvalue + "' />";
 		        	}},
-		        	{name:'name',index:'name', sorttype: "text"},
+		        	{name:'name',index:'name', sorttype: "text", formatter:function(cellvalue, options, rowObject){
+		        		return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
+		        	}},
 		          {name:'supplier',index:'supplier', sorttype: "text"},
 		          {name:'category',index:'category', sorttype: "text"},
-		          {name:'rrp',index:'rrp', sorttype: "text"}
+		          {name:'rrp',index:'rrp', sorttype: "text", formatter:function(cellvalue, options, rowObject){
+		        		return cellvalue + "澳元";
+		        	}}
 		        ],
 		        rowNum:20,
 		        rowList:[20,50,100],
