@@ -97,8 +97,9 @@
         text-align: center;
       }
 
-      #title-widget {
-        float: right;
+      #widget {
+        width: 80px;
+        margin-top: 20px;
       }
 
     </style>
@@ -125,15 +126,18 @@
   <body>
 
     <div class="container">
+      <div id="widget" class="pull-right">
+        <wb:follow-button uid="3397778794" type="gray_3" width="100%" height="24" ></wb:follow-button>
+        <span><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&touid=%E6%BE%B3%E6%B4%B2%E6%98%93%E8%B4%AD&siteid=cntaobao&status=1&charset=utf-8"><img border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=%E6%BE%B3%E6%B4%B2%E6%98%93%E8%B4%AD&site=cntaobao&s=1&charset=utf-8" alt="点这里给我发消息" /></a></span>
+      </div>
 
       <div class="masthead">
         <!-- {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %} -->
         <h3 class="muted">
           <img src="/assets/images/logo.png" />
           <span id="title-tag">澳洲易购</span>
-          <span id="title-widget"><wb:follow-button uid="3397778794" type="gray_3" width="100%" height="24" ></wb:follow-button><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&touid=%E6%BE%B3%E6%B4%B2%E6%98%93%E8%B4%AD&siteid=cntaobao&status=1&charset=utf-8"><img border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=%E6%BE%B3%E6%B4%B2%E6%98%93%E8%B4%AD&site=cntaobao&s=1&charset=utf-8" alt="点这里给我发消息" /></a></span>
-          
         </h3>
+
         <div class="navbar">
           <div class="navbar-inner">
             <div class="container">

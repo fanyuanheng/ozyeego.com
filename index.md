@@ -63,6 +63,4 @@ weight: 1
 </div>
 </div>
 
-<hr>
-
 {% include js/index.js %}
