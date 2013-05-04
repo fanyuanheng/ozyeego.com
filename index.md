@@ -43,7 +43,7 @@ weight: 1
 </div>
 
 <p>
-  <a class="btn btn-large btn-block" type="button">澳洲易购-淘宝店</a>
+  <a target="_blank" class="btn btn-large btn-block btn-primary" type="button" href="http://shop103894085.taobao.com/index.htm">澳洲易购-淘宝店</a>
 </p>
 
 <!-- Example row of columns -->

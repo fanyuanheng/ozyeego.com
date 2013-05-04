@@ -19,10 +19,10 @@
 		        		return cellvalue ? "<span style='text-decoration: line-through;'>" + cellvalue + "澳元" + "</span>" : '暂缺';
 		        	}},
 		        	{name:'our_price',index:'our_price', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue ? "<span style='color: red'>" + cellvalue  + "澳元" + "</span>" : '暂缺';
+		        		return cellvalue ? "<span style='color: green'>" + cellvalue  + "澳元 + 邮费" + "</span>" : '暂缺';
 		        	}},
 		        	{name:'discount',index:'discount', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue ? "<span style='color: green'>" + cellvalue  + "澳元" + "</span>" : '暂缺';
+		        		return cellvalue ? "<span style='color: red'>" + cellvalue  + "澳元" + "</span>" : '暂缺';
 		        	}}
 		        ],
 		        rowNum:5,
