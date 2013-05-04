@@ -9,31 +9,15 @@ weight: 1
 <div id="ozyeego-carousel" class="carousel slide">
   <div class="carousel-inner">
     <div class="item active">
-      <a href="http://www.coles.com.au"><img src="/assets/images/slider-coles.png" alt="Coles" /></a>
+      <img src="/assets/images/carousel-1.png" />
       <div class="carousel-caption">
-        <p>澳洲最大连锁超市之一 Coles</p>
-        <p><a href="http://www.coles.com.au">去看看 &raquo;</a></p>
+        <p>易购的货源来自澳洲知名的连锁店</p>
       </div>
     </div>
     <div class="item">
-      <a href="http://www.woolworths.com.au"><img src="/assets/images/slider-woolworths.png" alt="Woolworths" /></a>
+      <img src="/assets/images/carousel-2.png" alt="Woolworths" />
       <div class="carousel-caption">
-        <p>澳洲最大连锁超市之一 Woolworths</p>
-        <p><a href="http://www.woolworths.com.au">去看看&raquo;</a></p>
-      </div>
-    </div>
-    <div class="item">
-      <a href="http://www.chemistwarehouse.com.au"><img src="/assets/images/slider-chemistwarehouse.png" alt="Chemist Warehouse" /></a>
-      <div class="carousel-caption">
-        <p>澳洲最大折扣保健品店 Chemist Warehouse</p>
-        <p><a href="http://www.woolworths.com.au">去看看&raquo;</a></p>
-      </div>
-    </div>
-    <div class="item">
-      <a href="http://www.priceline.com.au"><img src="/assets/images/slider-priceline.png" alt="Priceline" /></a>
-      <div class="carousel-caption">
-        <p>澳洲知名连锁药店 Priceline</p>
-        <p><a href="http://www.priceline.com.au">去看看&raquo;</a></p>
+        <p>易购为你特别推荐的澳洲家喻户晓的品牌</p>
       </div>
     </div>
     
