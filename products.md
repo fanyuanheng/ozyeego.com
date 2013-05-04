@@ -3,7 +3,7 @@ layout: page
 title: "产品"
 tagline: "关于我们"
 group: navigation
-weight: 7
+weight: 2
 ---
 {% include JB/setup %}
 
