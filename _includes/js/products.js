@@ -20,7 +20,7 @@
 		        colNames:['', '产品名称', '建议零售价', '易购价', '折扣'],
 		        colModel:[
 		        	{name:'image',index:'image', sortable: false, search: false, formatter:function(cellvalue, options, rowObject){
-		        		return "<img src='" + cellvalue + "' />";
+		        		return "<img class='small' src='" + cellvalue + "' />";
 		        	}},
 		        	{name:'name',index:'name', sorttype: "text", formatter:function(cellvalue, options, rowObject){
 		        		return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
@@ -36,8 +36,8 @@
 		        	}}
 		        ],
 		        ignoreCase: true,
-		        rowNum:5,
-		        rowList:[5,20,50,100],
+		        rowNum:10,
+		        rowList:[10,25,50,100],
 		        pager: '#pager',
 		        gridview:true,
 	          rownumbers:true,
