@@ -7,7 +7,7 @@
 		        datatype: "local",
 		        data: filterProducts(response.products, category),
 	        	autowidth:true,	
-		        colNames:['', '产品名称', '供应商', '类别', '建议零售价'],
+		        colNames:['', '产品名称', '建议零售价', '易购价', '折扣'],
 		        colModel:[
 		        	{name:'image',index:'image', sortable: false, formatter:function(cellvalue, options, rowObject){
 		        		return "<img src='" + cellvalue + "' />";
@@ -15,9 +15,13 @@
 		        	{name:'name',index:'name', sorttype: "text", formatter:function(cellvalue, options, rowObject){
 		        		return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
 		        	}},
-		          {name:'supplier',index:'supplier', sorttype: "text"},
-		          {name:'category',index:'category', sorttype: "text"},
-		          {name:'rrp',index:'rrp', sorttype: "text", formatter:function(cellvalue, options, rowObject){
+		          {name:'rrp',index:'rrp', sortable: true, formatter:function(cellvalue, options, rowObject){
+		        		return cellvalue + "澳元";
+		        	}},
+		        	{name:'our_price',index:'our_price', sortable: true, formatter:function(cellvalue, options, rowObject){
+		        		return cellvalue + "澳元";
+		        	}},
+		        	{name:'discount',index:'discount', sortable: true, formatter:function(cellvalue, options, rowObject){
 		        		return cellvalue + "澳元";
 		        	}}
 		        ],
