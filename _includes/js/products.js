@@ -16,13 +16,13 @@
 		        		return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
 		        	}},
 		          {name:'rrp',index:'rrp', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue ? cellvalue + "澳元" : '暂缺';
+		        		return cellvalue ? "<span style='text-decoration: line-through;'>" + cellvalue + "澳元" + "</span>" : '暂缺';
 		        	}},
 		        	{name:'our_price',index:'our_price', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue ? cellvalue + "澳元" : '暂缺';
+		        		return cellvalue ? "<span style='color: red'>" + cellvalue  + "澳元" + "</span>" : '暂缺';
 		        	}},
 		        	{name:'discount',index:'discount', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue ? cellvalue + "澳元" : '暂缺';
+		        		return cellvalue ? "<span style='color: green'>" + cellvalue  + "澳元" + "</span>" : '暂缺';
 		        	}}
 		        ],
 		        rowNum:5,
