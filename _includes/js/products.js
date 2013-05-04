@@ -16,17 +16,17 @@
 		        		return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
 		        	}},
 		          {name:'rrp',index:'rrp', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue + "澳元";
+		        		return cellvalue ? cellvalue + "澳元" : '暂缺';
 		        	}},
 		        	{name:'our_price',index:'our_price', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue + "澳元";
+		        		return cellvalue ? cellvalue + "澳元" : '暂缺';
 		        	}},
 		        	{name:'discount',index:'discount', sortable: true, formatter:function(cellvalue, options, rowObject){
-		        		return cellvalue + "澳元";
+		        		return cellvalue ? cellvalue + "澳元" : '暂缺';
 		        	}}
 		        ],
-		        rowNum:20,
-		        rowList:[20,50,100],
+		        rowNum:5,
+		        rowList:[5,20,50,100],
 		        pager: '#pager',
 		        gridview:true,
 	          rownumbers:true,
