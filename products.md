@@ -26,5 +26,3 @@ weight: 2
 	<table id="products"><tr><td/></tr></table>
 	<div id="pager"/>
 </div>
-
-{% include js/products.js %}
