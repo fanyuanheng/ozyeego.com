@@ -15,8 +15,10 @@ $(document).ready(function(){
       sopt: ['cn'],
   });
 
+  var products_data_url = 'https://dl.dropboxusercontent.com/s/ormdv70pfub25r0/products.json?token_hash=AAEMqnrJ467iNRqPmGbKxGwPTrhM3V0Xmdp7eqNDOeIYeQ&dl=1';
+
   var reloadProducts = function(category) {
-    $.getJSON('https://dl.dropboxusercontent.com/s/ormdv70pfub25r0/products.json?token_hash=AAEMqnrJ467iNRqPmGbKxGwPTrhM3V0Xmdp7eqNDOeIYeQ&dl=1', function(response){
+    $.getJSON(products_data_url, function(response){
       $("#products").jqGrid({
           datatype: "local",
           data: filterProducts(response.products, category),
@@ -64,7 +66,7 @@ $(document).ready(function(){
     $('.nav li').removeClass('active');
     $(this).addClass('active');
     var category = $(this).attr('category');
-    $.getJSON('assets/products.json', function(response){
+    $.getJSON(products_data_url, function(response){
       $("#products").jqGrid('clearGridData')
         .jqGrid('setGridParam', { data: filterProducts(response.products, category)})
         .trigger('reloadGrid', [{ page: 1}]);
