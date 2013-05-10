@@ -19,7 +19,8 @@ $(document).ready(function(){
     "vitamins" : 'https://dl.dropboxusercontent.com/s/o8f6dqz04pimrmw/vitamins.json?token_hash=AAHQTpeJwTgf78TibAZZRFiTJf2Xr5g4h0gSAocNxuPokg&dl=1',
     "weight loss" : 'https://dl.dropboxusercontent.com/s/914xylvpzez1vcs/weight%20loss.json?token_hash=AAEfZxFsdy-YdhcIoYVKQKAyLe8RqyoUdExBlAcS2NtWXg&dl=1',
     "baby care" : 'https://dl.dropboxusercontent.com/s/by6rdqodh30n2ze/baby%20care.json?token_hash=AAHvmMAEP6bNjIXcpf-fVU0k0jHvhqOva3qL_Y6S5TPzTw&dl=1',
-    "skin care" : 'https://dl.dropboxusercontent.com/s/u7x9sl2inyagivx/skin%20care.json?token_hash=AAFgCrPcs_86-qEMsuruUGKFajKq8BKs0QB5jSDYEp7UTA&dl=1'
+    "skin care" : 'https://dl.dropboxusercontent.com/s/u7x9sl2inyagivx/skin%20care.json?token_hash=AAFgCrPcs_86-qEMsuruUGKFajKq8BKs0QB5jSDYEp7UTA&dl=1',
+    "food" : 'https://dl.dropboxusercontent.com/s/sr4297cqcjlum91/food.json?token_hash=AAGL8ff5ywjPz-kwCnNBVieYfRwVi_cLm0Cja6uexIa1Wg&dl=1'
   };
 
   var reloadProducts = function(category) {
@@ -34,7 +35,7 @@ $(document).ready(function(){
           autowidth:true, 
           colNames:['', '产品名称', '建议零售价', '易购价', '折扣'],
           colModel:[
-            {name:'image',index:'image', sortable: false, search: false, formatter:function(cellvalue, options, rowObject){
+            {name:'image',index:'image', width: 60, sortable: false, search: false, formatter:function(cellvalue, options, rowObject){
               return "<img class='small' src='" + cellvalue + "' />";
             }},
             {name:'name',index:'name', sorttype: "text", formatter:function(cellvalue, options, rowObject){

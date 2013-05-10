@@ -89,7 +89,7 @@ img.small {
   max-height: 80px;
 }
 
-img.small:hover {
-  max-width: 300px;
-  max-height: 300px;
-}
+/*img.small:hover {
+  max-width: 150px;
+  max-height: 150px;
+}*/

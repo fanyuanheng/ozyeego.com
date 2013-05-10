@@ -15,7 +15,7 @@ weight: 2
 		    <li category="weight loss"><a href="javascript:">瘦身</a></li>
 		    <li category="baby care"><a href="javascript:">婴儿护理</a></li>
 		    <li category="skin care"><a href="javascript:">美容护肤</a></li>
-		    <li category="healthy food"><a href="javascript:">健康食品</a></li>
+		    <li category="food"><a href="javascript:">健康食品</a></li>
 		    <li category="others"><a href="javascript:">其他</a></li>
       </ul>
     </div>
