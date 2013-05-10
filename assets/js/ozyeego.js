@@ -19,8 +19,10 @@ $(document).ready(function(){
 
   var reloadProducts = function(category) {
     $("#loading-message").show();
+    $("#products-wrapper").hide();
     $.getJSON(products_data_url, function(response){
       $("#loading-message").hide();
+      $("#products-wrapper").show();
       $("#products").jqGrid({
           datatype: "local",
           data: filterProducts(response.products, category),
@@ -69,8 +71,10 @@ $(document).ready(function(){
     $(this).addClass('active');
     var category = $(this).attr('category');
     $("#loading-message").show();
+    $("#products-wrapper").hide();
     $.getJSON(products_data_url, function(response){
       $("#loading-message").hide();
+      $("#products-wrapper").show();
       $("#products").jqGrid('clearGridData')
         .jqGrid('setGridParam', { data: filterProducts(response.products, category)})
         .trigger('reloadGrid', [{ page: 1}]);
