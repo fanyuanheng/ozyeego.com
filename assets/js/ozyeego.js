@@ -18,9 +18,9 @@ $(document).ready(function(){
   var products_data_url = 'https://dl.dropboxusercontent.com/s/ormdv70pfub25r0/products.json?token_hash=AAEMqnrJ467iNRqPmGbKxGwPTrhM3V0Xmdp7eqNDOeIYeQ&dl=1';
 
   var reloadProducts = function(category) {
-    $("#loading-message").text("数据加载中...");
+    $("#loading-message").show();
     $.getJSON(products_data_url, function(response){
-      $("#loading-message").text("");
+      $("#loading-message").hide();
       $("#products").jqGrid({
           datatype: "local",
           data: filterProducts(response.products, category),
@@ -68,9 +68,9 @@ $(document).ready(function(){
     $('.nav li').removeClass('active');
     $(this).addClass('active');
     var category = $(this).attr('category');
-    $("#loading-message").text("数据加载中...");
+    $("#loading-message").show();
     $.getJSON(products_data_url, function(response){
-      $("#loading-message").text("");
+      $("#loading-message").hide();
       $("#products").jqGrid('clearGridData')
         .jqGrid('setGridParam', { data: filterProducts(response.products, category)})
         .trigger('reloadGrid', [{ page: 1}]);

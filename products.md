@@ -22,7 +22,7 @@ weight: 2
   </div>
 </div>
 
-<div><span id="loading-message"></span></div>
+<div id="loading-message" class="alert"><span>数据加载中...</span></div>
 <div>
 	<table id="products"><tr><td/></tr></table>
 	<div id="pager"/>
