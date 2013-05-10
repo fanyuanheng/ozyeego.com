@@ -15,12 +15,17 @@ $(document).ready(function(){
       sopt: ['cn'],
   });
 
-  var products_data_url = 'https://dl.dropboxusercontent.com/s/ormdv70pfub25r0/products.json?token_hash=AAEMqnrJ467iNRqPmGbKxGwPTrhM3V0Xmdp7eqNDOeIYeQ&dl=1';
+  var products_data_urls = {
+    "vitamins" : 'https://dl.dropboxusercontent.com/s/o8f6dqz04pimrmw/vitamins.json?token_hash=AAHQTpeJwTgf78TibAZZRFiTJf2Xr5g4h0gSAocNxuPokg&dl=1',
+    "weight loss" : 'https://dl.dropboxusercontent.com/s/914xylvpzez1vcs/weight%20loss.json?token_hash=AAEfZxFsdy-YdhcIoYVKQKAyLe8RqyoUdExBlAcS2NtWXg&dl=1',
+    "baby care" : 'https://dl.dropboxusercontent.com/s/by6rdqodh30n2ze/baby%20care.json?token_hash=AAHvmMAEP6bNjIXcpf-fVU0k0jHvhqOva3qL_Y6S5TPzTw&dl=1',
+    "skin care" : 'https://dl.dropboxusercontent.com/s/u7x9sl2inyagivx/skin%20care.json?token_hash=AAFgCrPcs_86-qEMsuruUGKFajKq8BKs0QB5jSDYEp7UTA&dl=1'
+  };
 
   var reloadProducts = function(category) {
     $("#loading-message").show();
     $("#products-wrapper").hide();
-    $.getJSON(products_data_url, function(response){
+    $.getJSON(products_data_urls[category], function(response){
       $("#loading-message").hide();
       $("#products-wrapper").show();
       $("#products").jqGrid({
@@ -73,7 +78,7 @@ $(document).ready(function(){
     var category = $(this).attr('category');
     $("#loading-message").show();
     $("#products-wrapper").hide();
-    $.getJSON(products_data_url, function(response){
+    $.getJSON(products_data_urls[category], function(response){
       $("#loading-message").hide();
       $("#products-wrapper").show();
       $("#products").jqGrid('clearGridData')
