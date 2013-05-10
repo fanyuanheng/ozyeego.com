@@ -22,6 +22,7 @@ weight: 2
   </div>
 </div>
 
+<div><span id="loading-message"></span></div>
 <div>
 	<table id="products"><tr><td/></tr></table>
 	<div id="pager"/>
