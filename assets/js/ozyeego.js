@@ -35,8 +35,8 @@ $(document).ready(function(){
           autowidth:true, 
           colNames:['', '产品名称', '建议零售价', '易购价', '折扣'],
           colModel:[
-            {name:'image',index:'image', width: 60, sortable: false, search: false, formatter:function(cellvalue, options, rowObject){
-              return "<img class='small' src='" + cellvalue + "' />";
+            {name:'image',index: 'image', width: 60, sortable: false, search: false, formatter:function(cellvalue, options, rowObject){
+              return "<a href='javascript:'><img class='product-thumbnail-link small' data-target='#product-modal' data-toggle='modal' src='" + cellvalue + "' /></a>";
             }},
             {name:'name',index:'name', sorttype: "text", formatter:function(cellvalue, options, rowObject){
               return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
@@ -89,4 +89,10 @@ $(document).ready(function(){
   });
 
   reloadProducts('vitamins');
+
+});
+
+$(document).on("click", '.product-thumbnail-link', function() {
+  $('#product-modal img').prop("src", $(this).attr("src"));
+  $('#product-modal').modal('show');
 });

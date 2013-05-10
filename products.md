@@ -27,3 +27,7 @@ weight: 2
 	<table id="products"><tr><td/></tr></table>
 	<div id="pager"/>
 </div>
+
+<div id="product-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<img src="http://www.chemistwarehouse.com.au/images/productimages/67494/original_CW.jpg" />
+</div>
