@@ -72,8 +72,8 @@ $(document).ready(function(){
     });
   };
 
-  $('.nav li').click(function(){
-    $('.nav li').removeClass('active');
+  $('#products-nav li').click(function(){
+    $('#products-nav li').removeClass('active');
     $(this).addClass('active');
     var category = $(this).attr('category');
     $("#loading-message").show();
