@@ -45,6 +45,7 @@ $(document).ready(function(){
               return cellvalue ? "<span style='color: red'>" + cellvalue  + "澳元" + "</span>" : '暂缺';
             }}
           ],
+          hidegrid: false,
           ignoreCase: true,
           rowNum:10,
           rowList:[10,25,50,100],
