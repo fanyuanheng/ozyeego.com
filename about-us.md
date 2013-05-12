@@ -21,6 +21,13 @@ weight: 3
 
 <p class="lead">我们立志让国人购买澳洲放心商品变的更加便捷，力求把尽可能所有澳洲的放心商品呈现在你的面前。</p>
 
+<p class="text-center">
+	<blockquote class="pull-right">
+	  <p>扫一扫我们的微信号，马上联系我们吧</p>
+	</blockquote>
+	<img id="weixin-qr-code" src="/assets/images/weixin_mp_qr.jpg"/>
+</p>
+
 <address>
 	<strong>澳洲易购</strong><br>
 	<abbr title="电话">电:</abbr> (+61) 3 5995 4308<br>

@@ -88,3 +88,8 @@ img.small {
   max-width: 80px;
   max-height: 80px;
 }
+
+#weixin-qr-code {
+  max-width: 150px;
+  max-height: 150px;
+}
