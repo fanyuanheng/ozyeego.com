@@ -25,11 +25,13 @@ weight: 1
   <a class="carousel-control left" href="#ozyeego-carousel" data-slide="prev">&lsaquo;</a>
   <a class="carousel-control right" href="#ozyeego-carousel" data-slide="next">&rsaquo;</a>
 </div>
-
-<p>
-  <a target="_blank" class="btn btn-large btn-block btn-primary" type="button" href="http://shop103894085.taobao.com/index.htm">澳洲易购-淘宝店</a>
+<br/>
+<p class="text-center">
+  <a target="_blank" href="http://shop103894085.taobao.com/index.htm">
+    <img src="/assets/images/taobao-ozyeego.png" />
+  </a>
 </p>
-
+<br/>
 <!-- Example row of columns -->
 <div class="row-fluid">
 <div class="span4">
