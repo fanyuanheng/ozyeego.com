@@ -26,7 +26,7 @@ weight: 1
 </div>
 <br/>
 <p class="text-center">
-  <a target="_blank" href="http://shop103894085.taobao.com/index.htm">
+  <a target="_blank" href="http://ozyeego.taobao.com/index.htm">
     <img src="/assets/images/taobao-ozyeego.png" />
   </a>
 </p>
