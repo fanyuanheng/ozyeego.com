@@ -5,7 +5,6 @@ tagline:
 group: navigation
 weight: 1
 ---
-
 <div id="ozyeego-carousel" class="carousel slide">
   <div class="carousel-inner">
     <div class="item active">
