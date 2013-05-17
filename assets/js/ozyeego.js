@@ -33,7 +33,7 @@ $(document).ready(function(){
           datatype: "local",
           data: filterProducts(response.products, category),
           autowidth:true, 
-          colNames:['', '产品名称', '建议零售价', '易购价'],
+          colNames:['', '产品名称', '建议零售价'],
           colModel:[
             {name:'image',index: 'image', width: 60, sortable: false, search: false, formatter:function(cellvalue, options, rowObject){
               return "<a href='javascript:'><img class='product-thumbnail-link small' data-target='#product-modal' data-toggle='modal' src='" + cellvalue + "' /></a>";
@@ -42,10 +42,7 @@ $(document).ready(function(){
               return "<span id='product-name' style='word-wrap: break-word;'>" + cellvalue + "</span>";
             }},
             {name:'rrp',index:'rrp', sorttype: "float", search: false, formatter:function(cellvalue, options, rowObject){
-              return cellvalue ? "<span style='text-decoration: line-through;'>" + cellvalue + "澳元" + "</span>" : '暂缺';
-            }},
-            {name:'our_price',index:'our_price', sorttype: "float", search: false, formatter:function(cellvalue, options, rowObject){
-              return cellvalue ? "<span style='color: green'>" + cellvalue  + "澳元 + 邮费/手续费" + "</span>" : '暂缺';
+              return cellvalue ? "<span>" + cellvalue + "澳元" + "</span>" : '暂缺';
             }}
           ],
           hidegrid: false,
